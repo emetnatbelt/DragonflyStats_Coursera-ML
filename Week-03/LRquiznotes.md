@@ -21,7 +21,7 @@ Which of the following are true? Check all that apply.
 
 1. **J(θ) will be a convex function, so gradient descent should converge to the global minimum. (CORRECTA)**
 
-2. **Adding polynomial features (e.g., instead using hθ(x)=g(θ0+θ1x1+θ2x2+θ3x21+θ4x1x2+θ5x22) ) could increase how well we can fit the training data.(CORRECTA)**
+2. **Adding polynomial features (e.g., instead using h_{θ}(x)=g(θ0+θ1x1+θ2x2+θ3x21+θ4x1x2+θ5x22) ) could increase how well we can fit the training data.(CORRECTA)**
 
 3. The positive and negative examples cannot be separated using a straight line. So, gradient descent will fail to converge.
 
