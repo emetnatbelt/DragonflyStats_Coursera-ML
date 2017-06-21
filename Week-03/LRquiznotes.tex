@@ -4,34 +4,29 @@ Logistic Regression
 5 questions
 %===================================================%
 1. 
-Suppose that you have trained a logistic regression classifier, and it outputs on a new example x a prediction hθ(x) = 0.4. This means (check all that apply):
+Suppose that you have trained a logistic regression classifier, and it outputs on a new example x a prediction hθ(x) = 0.2. This means (check all that apply):
 
-Our estimate for P(y=0|x;θ) is 0.4.
+Our estimate for P(y=0|x;θ) is 0.8. (correcta)
 
-Our estimate for P(y=1|x;θ) is 0.6.
+Our estimate for P(y=1|x;θ) is 0.2.  (correcta)
 
-SELECTED Our estimate for P(y=0|x;θ) is 0.6.
+Our estimate for P(y=0|x;θ) is 0.6.
 
-SELECTED Our estimate for P(y=1|x;θ) is 0.4.
+Our estimate for P(y=1|x;θ) is 0.4.
 1
 %===================================================%
 2. 
 Suppose you have the following training set, and fit a logistic regression classifier hθ(x)=g(θ0+θ1x1+θ2x2).
 
-
-
 Which of the following are true? Check all that apply.
 
-1.  J(θ) will be a convex function, so gradient descent should converge to the global minimum.
+1. **J(θ) will be a convex function, so gradient descent should converge to the global minimum. (CORRECTA)**
 
-2. CORRECT Adding polynomial features (e.g., instead using hθ(x)=g(θ0+θ1x1+θ2x2+θ3x21+θ4x1x2+θ5x22) ) could increase how well we can fit the training data.
+2. **Adding polynomial features (e.g., instead using hθ(x)=g(θ0+θ1x1+θ2x2+θ3x21+θ4x1x2+θ5x22) ) could increase how well we can fit the training data.(CORRECTA)**
 
 3. The positive and negative examples cannot be separated using a straight line. So, gradient descent will fail to converge.
 
-4. WRONG Because the positive and negative examples cannot be separated using a straight line, linear regression will perform as well as logistic regression on this data.
-
-
-1,4 not correct
+4. Because the positive and negative examples cannot be separated using a straight line, linear regression will perform as well as logistic regression on this data.
 
 %===================================================%
 3. 
